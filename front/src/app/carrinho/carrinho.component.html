@@ -1,0 +1,11 @@
+<div class="carrinho">
+    <mat-card *ngFor="let item of cart | async; let i = index">
+      {{item.nome}}, tamanho {{item.tamanho}}, por {{item.preco}}
+      <button mat-button (click)="removeFromCart(i, item)">Remover item</button>
+    </mat-card>
+    <p>Total da compra: {{total | async | currency:'BRL' }}</p>
+</div>
+<footer>
+  <button mat-button [routerLink]="['/']">Voltar para malinha</button>
+  <button mat-button (click)="finalizar()" [disabled]="(cart | async).length == 0">Finalizar Compra</button>
+</footer>

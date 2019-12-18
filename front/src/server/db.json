@@ -1,0 +1,8 @@
+{
+    "mala": [
+        {"id": 1, "item": "Peça 1", "preco": 21.99, "quant": 1},
+        {"id": 2, "item": "Peça 2", "preco": 19.99, "quant": 4},
+        {"id": 3, "item": "Peça 3", "preco": 19.99, "quant": 2},
+        {"id": 4, "item": "Peça 4", "preco": 17.00, "quant": 3}
+    ]    
+}

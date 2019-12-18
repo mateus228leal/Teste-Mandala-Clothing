@@ -1,0 +1,24 @@
+.carrinho { 
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 350px;
+  overflow-x: auto;
+
+  mat-card {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p {
+    float: right;
+  }
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
